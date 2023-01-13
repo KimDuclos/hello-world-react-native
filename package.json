@@ -1,5 +1,5 @@
 {
-  "name": "hello-world",
+  "name": "npm",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -9,12 +9,16 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~47.0.12",
+    "@react-navigation/native": "^5.9.8",
+    "@react-navigation/stack": "^5.14.9",
+    "expo": "^47.0.13",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "react-native": "0.70.5",
-    "react-native-web": "~0.18.9"
+    "react-native": "^0.70.5",
+    "react-native-shared-element": "^0.8.8",
+    "react-native-web": "~0.18.9",
+    "react-navigation-stack": "^2.10.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -22,5 +26,21 @@
     "@types/react-native": "~0.70.6",
     "typescript": "^4.6.3"
   },
-  "private": true
+  "private": true,
+  "description": "hello world",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KimDuclos/hello-world-react-native.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "expo"
+  ],
+  "author": "Kim Duclos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KimDuclos/hello-world-react-native/issues"
+  },
+  "homepage": "https://github.com/KimDuclos/hello-world-react-native#readme"
 }
